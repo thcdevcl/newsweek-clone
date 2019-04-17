@@ -1,0 +1,46 @@
+.heading-text {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0 9px;
+  border-right: 1px solid lightgray;
+}
+
+.logo {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  padding: 0px !important;
+}
+
+.navbar-date {
+  font: 16px "Roboto Condensed", sans-serif;
+  color: #fff;
+  padding-top: 5vh;
+}
+
+.navbar-main {
+  background-color: #f72210 !important;
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+#nav-signin {
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 20px;
+  font-weight: 800;
+}
+
+#nav-subscribe {
+  background-color: #fff;
+  color: #f72210;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  padding: 10px;
+}
