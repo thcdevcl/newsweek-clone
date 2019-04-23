@@ -1,19 +1,13 @@
-# Base structure
+# BOOTSTRAP
 
 ### HTML & CSS Course
 
 **Description**
 
-Simple file and folder from a basic project from MICROVERSE HTML-CSS Course
+Newsweek clone built with bootstrap
 
-# Content
+# Live Demo
 
-- index.html with HTML5 structure
-- README.md file with markdown languaje
-- .stickler file with the basic config
-- assets folder
-  -style.css file to styles properties
-  -reset.css file to a style reset from the style components
+[LINK](https://rawcdn.githack.com/noincomedev/newsweek-clone/41e406a862dec8ea401d43c8a2f7711e401e15a8/index.html)
 
-**Created by**
-[MephistoDevelop](https://www.github.com/mephistodevelop) & [Noincomedev](https://www.github.com/noincomedev)
+**Created by**[Noincomedev](https://www.github.com/noincomedev)
