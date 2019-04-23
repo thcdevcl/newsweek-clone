@@ -68,6 +68,19 @@
   font-weight: bolder;
 }
 
+.footer-lang {
+  color: #666;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.footer-link {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+  color: #666;
+}
+
 .headline {
   color: #666;
   color: rgba(3, 3, 3, 0.4);
@@ -209,6 +222,18 @@
   line-height: 20px;
   font: bold 16px/26px "roboto condensed", sans-serif;
   margin-bottom: 8px
+}
+
+#footer-copyrigth {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+}
+
+#footer-logo {
+  color: red;
+  font-size: 45px;
+  font-weight: bolder;
 }
 
 #nav-signin {
