@@ -1,3 +1,28 @@
+@media screen and (min-width: 10px) and (max-width: 390px) {
+  .navbar-heading {
+    display: none;
+  }
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-main {
+    height: 8vh !important;
+    padding: 0 !important;
+  }
+  .logo {
+    font-size: 1.5rem !important;
+  }
+  #nav-item-clock {
+    display: none;
+  }
+}
+
+body {
+  height: 100% !important;
+  background-color: #f4f5f6 !important;
+}
+
 .article {
   padding: 8px;
 }
@@ -53,7 +78,7 @@
   padding: 0 7px;
   background-color: #f72210;
   color: #fff;
-  margin-right: 7px;3
+  margin-right: 7px;
 }
 
 .cover-header {
@@ -68,6 +93,11 @@
   font-weight: bolder;
 }
 
+.footer-icon {
+  font-size: 26px;
+  color: #666;
+}
+
 .footer-lang {
   color: #666;
   font-size: 14px;
@@ -75,6 +105,7 @@
 }
 
 .footer-link {
+  display: inline;
   border-right: 1px solid #d9d9d9;
   padding-right: 10px;
   margin-right: 10px;
@@ -107,8 +138,22 @@
   color: white;
 }
 
+.main-container {
+  background-color: white;
+}
+
 .navbar {
   padding: 0px !important;
+  margin: 0 !important;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-heading {
+  padding: 0 !important;
 }
 
 .navbar-date {
@@ -120,7 +165,6 @@
 .navbar-main {
   background-color: #f72210 !important;
   height: 95px;
-  padding: 20px 10px 15px;
 }
 
 .opinion-description {
@@ -165,6 +209,7 @@
   width: 100%;
   height: 80%;
   background-color: gray;
+  min-height: 16vh;
 }
 
 .placeholder-round-md {
@@ -221,7 +266,7 @@
   font-size: 20px;
   line-height: 20px;
   font: bold 16px/26px "roboto condensed", sans-serif;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 #footer-copyrigth {
@@ -234,6 +279,12 @@
   color: red;
   font-size: 45px;
   font-weight: bolder;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #nav-signin {
