@@ -6,9 +6,687 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="assets/reset.css" />
-    <title>Microverse BASE HTML-CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Condensed:400,700"
+      rel="stylesheet"
+    />
+    <title>Newsweek Clone</title>
   </head>
   <body>
-    <h1>Content</h1>
+    <nav class="navbar-main row p-0 m-0">
+      <div id="nav-item-clock" class="col-sm-2">
+        <p class="text-center navbar-date">Mon Apr 12, 2019</p>
+      </div>
+      <div id="logo-container" class="col-4 col-sm-7 p-0 m-0">
+        <p class="logo">Newsweek</p>
+      </div>
+      <div
+        class="row p-0 m-0 d-flex align-items-center justify-content-center"
+        style="flex: 1"
+      >
+        <p id="nav-signin">SIGN IN</p>
+        <p id="nav-subscribe">SUBSCRIBE ></p>
+      </div>
+    </nav>
+    <main id="main">
+      <div class="navbar-heading container-fluid">
+        <ul class="navbar navbar-default align-items-center">
+          <li class="heading-text">U.S.</li>
+          <li class="heading-text">Worl</li>
+          <li class="heading-text">Bussines</li>
+          <li class="heading-text">Tech & Science</li>
+          <li class="heading-text">Culture</li>
+          <li class="heading-text">Sports</li>
+          <li class="heading-text">Health</li>
+          <li class="heading-text">Opinion</li>
+          <li class="heading-text">Ndelible</li>
+          <li>
+            <div class="navbar-heading-search">
+              <input id="header-search" placeholder="Search" type="text" />
+              <i class="fas fa-search"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="article">
+              <div class="headline">Featured Stories</div>
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+              <p class="related-article">
+                ICE Blocked White House Plan for Sanctuary Cities
+              </p>
+            </div>
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+              <p class="related-article">
+                ICE Blocked White House Plan for Sanctuary Cities
+              </p>
+            </div>
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+              <p class="related-article">
+                ICE Blocked White House Plan for Sanctuary Cities
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-5">
+            <div class="article">
+              <div class="headline">Top Story</div>
+              <div class="placeholder-md"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                “I think, from a legal perspective, I know of few moments in the
+                last 30 years that has the potential crescendo of emotion as
+                this one," a former federal prosecutor told Newsweek about the
+                report's imminent release.
+              </div>
+              <p class="related-article">
+                Rod Rosenstein Lauds Barr Before Mueller Report Release
+              </p>
+            </div>
+            <div class="headline">More Stories</div>
+            <div class="article-thumbnail">
+              <div class="placeholder-xs"></div>
+              <div class="article-thumbnail-title">
+                Cruise Ship Rescues 23 People Adrift at Sea for Days
+              </div>
+              <div class="article-thumbnail-description">
+                Two individuals had "minor medical issues" that were treated by
+                the cruise ship’s medical staff, the U.S. Coast Guard
+              </div>
+            </div>
+            <div class="article-thumbnail">
+              <div class="placeholder-xs"></div>
+              <div class="article-thumbnail-title">
+                Cruise Ship Rescues 23 People Adrift at Sea for Days
+              </div>
+              <div class="article-thumbnail-description">
+                Two individuals had "minor medical issues" that were treated by
+                the cruise ship’s medical staff, the U.S. Coast Guard
+              </div>
+            </div>
+            <div class="article-thumbnail">
+              <div class="placeholder-xs"></div>
+              <div class="article-thumbnail-title">
+                Cruise Ship Rescues 23 People Adrift at Sea for Days
+              </div>
+              <div class="article-thumbnail-description">
+                Two individuals had "minor medical issues" that were treated by
+                the cruise ship’s medical staff, the U.S. Coast Guard
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="headline">Opinion</div>
+            <div class="container opinion-item">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="padding: 8px 0; border-bottom: 1px solid lightgray"
+                >
+                  <div class="placeholder-round-md"></div>
+                  <div class="opinion-title">
+                    Tiger's Win Is 'Kick in the Gut' for Nasty Media
+                  </div>
+                  <div class="opinion-description">
+                    By Robert Pianta
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container opinion-item">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="padding: 8px 0; border-bottom: 1px solid lightgray"
+                >
+                  <div class="placeholder-round-md"></div>
+                  <div class="opinion-title">
+                    Tiger's Win Is 'Kick in the Gut' for Nasty Media
+                  </div>
+                  <div class="opinion-description">
+                    By Robert Pianta
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container opinion-item">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="padding: 8px 0; border-bottom: 1px solid lightgray"
+                >
+                  <div class="placeholder-round-md"></div>
+                  <div class="opinion-title">
+                    Tiger's Win Is 'Kick in the Gut' for Nasty Media
+                  </div>
+                  <div class="opinion-description">
+                    By Robert Pianta
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container opinion-item">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="padding: 8px 0; border-bottom: 1px solid lightgray"
+                >
+                  <div class="placeholder-round-md"></div>
+                  <div class="opinion-title">
+                    Tiger's Win Is 'Kick in the Gut' for Nasty Media
+                  </div>
+                  <div class="opinion-description">
+                    By Robert Pianta
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container opinion-item">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="padding: 8px 0; border-bottom: 1px solid lightgray"
+                >
+                  <div class="placeholder-round-md"></div>
+                  <div class="opinion-title">
+                    Tiger's Win Is 'Kick in the Gut' for Nasty Media
+                  </div>
+                  <div class="opinion-description">
+                    By Robert Pianta
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container opinion-item" style="margin-bottom: 24px">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="padding: 8px 0; border-bottom: 1px solid lightgray"
+                >
+                  <div class="placeholder-round-md"></div>
+                  <div class="opinion-title">
+                    Tiger's Win Is 'Kick in the Gut' for Nasty Media
+                  </div>
+                  <div class="opinion-description">
+                    By Robert Pianta
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="headline">Latest News</div>
+            <div class="article-thumbnail" style="display: flex">
+              <div class="placeholder-xs"></div>
+              <p class="article-thumbnail-title">
+                Organizer: Harvard Sex Weekend Promotes Consent Culture
+              </p>
+            </div>
+            <div class="article-thumbnail" style="display: flex">
+              <div class="placeholder-xs"></div>
+              <p class="article-thumbnail-title">
+                Organizer: Harvard Sex Weekend Promotes Consent Culture
+              </p>
+            </div>
+            <div class="article-thumbnail" style="display: flex">
+              <div class="placeholder-xs"></div>
+              <p class="article-thumbnail-title">
+                Organizer: Harvard Sex Weekend Promotes Consent Culture
+              </p>
+            </div>
+            <div class="article-thumbnail" style="display: flex">
+              <div class="placeholder-xs"></div>
+              <p class="article-thumbnail-title">
+                Organizer: Harvard Sex Weekend Promotes Consent Culture
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="container d-flex align-items-center justify-content-center section-headline"
+          >
+            <span class="section-icon">N</span>
+            IN THE MAGAZINE
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 cover">
+            <div class="placeholder-md"></div>
+            <div class="container d-flex cover-header">
+              <div class="cover-category-mag">FEATURES</div>
+              <div class="cover-category">U.S</div>
+            </div>
+            <div class="cover-title">
+              Adam Schiff Says Donald Trump Should Be Prosecuted
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="container d-flex align-items-center justify-content-center section-headline"
+          >
+            <span class="section-icon">N</span>
+            EDITOR'S PICK
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Will Stephen Miller Testify Before Congress?
+              </div>
+              <div class="article-description">
+                A city hall spokesperson said that the area surrounding the
+                cathedral was being cleared.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="container d-flex align-items-center justify-content-center section-headline"
+          >
+            <span class="section-icon">N</span>
+            FEATURED SLIDESHOWS
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="article">
+              <div class="placeholder-sm"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row section-picks">
+          <div class="container">
+            <div class="section-pick-category">U.S</div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="article section-pick">
+              <div class="placeholder-pick"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="article section-pick">
+              <div class="placeholder-pick"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="container">
+              <div class="article-thumbnail" style="display: flex">
+                <div class="placeholder-xs"></div>
+                <div class="article-thumbnail-title">
+                  Cruise Ship Rescues 23 People Adrift at Sea for Days
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="article-thumbnail" style="display: flex">
+                <div class="placeholder-xs"></div>
+                <div class="article-thumbnail-title">
+                  Cruise Ship Rescues 23 People Adrift at Sea for Days
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="article-thumbnail" style="display: flex">
+                <div class="placeholder-xs"></div>
+                <div class="article-thumbnail-title">
+                  Cruise Ship Rescues 23 People Adrift at Sea for Days
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row section-picks">
+          <div class="container">
+            <div class="section-pick-category">U.S</div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="article section-pick">
+              <div class="placeholder-pick"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="article section-pick">
+              <div class="placeholder-pick"></div>
+              <div class="article-title">
+                Top Ten Countries For Ethical Travelers
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="container">
+              <div class="article-thumbnail" style="display: flex">
+                <div class="placeholder-xs"></div>
+                <div class="article-thumbnail-title">
+                  Cruise Ship Rescues 23 People Adrift at Sea for Days
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="article-thumbnail" style="display: flex">
+                <div class="placeholder-xs"></div>
+                <div class="article-thumbnail-title">
+                  Cruise Ship Rescues 23 People Adrift at Sea for Days
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="article-thumbnail" style="display: flex">
+                <div class="placeholder-xs"></div>
+                <div class="article-thumbnail-title">
+                  Cruise Ship Rescues 23 People Adrift at Sea for Days
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-9">
+            <span id="footer-logo">NEWSWEEK</span>
+            <span id="footer-copyrigth">© 2019 Newsweek</span>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <div
+              class="container d-flex align-items-center"
+              style="height: 100%"
+            >
+              <i class="footer-icon fab fa-facebook-square"></i>
+              <i class="footer-icon fab fa-twitter"></i>
+              <i class="footer-icon fab fa-instagram"></i>
+              <i class="footer-icon fab fa-tumblr"></i>
+              <i class="footer-icon fab fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="footer">
+            <div id="map-site-container" class="row">
+              <div class="col-xs-12 col-sm-8">
+                <ul id="map-site">
+                  <li class="footer-link">About Us</li>
+                  <li class="footer-link">Corrections</li>
+                  <li class="footer-link">Contact Us</li>
+                  <li class="footer-link">Editorial Guidelines</li>
+                  <li class="footer-link">Advertise</li>
+                  <li class="footer-link">Copyright</li>
+                  <li class="footer-link">Terms & Conditions</li>
+                  <li class="footer-link">Privacy Policy</li>
+                  <li class="footer-link">Cookie Policy</li>
+                  <li class="footer-link">Terms of Sale</li>
+                  <li class="footer-link">Archive</li>
+                  <li class="footer-link">Announcements</li>
+                  <li class="footer-link">Consent preferences</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <ul class="navbar">
+                  <li class="">Editions:</li>
+                  <li class="footer-lang">U.S. Edition</li>
+                  <li class="footer-lang">Middle East</li>
+                  <li class="footer-lang">日本</li>
+                  <li class="footer-lang">한국</li>
+                  <li class="footer-lang">Pakistan</li>
+                  <li class="footer-lang">Polska</li>
+                  <li class="footer-lang">România</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
